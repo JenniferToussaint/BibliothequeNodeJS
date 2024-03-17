@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livres</title>
+    <link rel="stylesheet" href="../asset/style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand material-symbols-outlined" href="../">auto_stories</a>
+            <a class="navbar-brand" href="listBook.html">Liste des livres</a>
+            <a class="navbar-brand" href="addBook.html">Ajouter un livre</a>
+          </div>
+      </nav>
+    <div class="container">
+        <div class="row">
+                <table class="table">
+                    <thead>
+                        <th>Titre</th>
+                        <th>Genre</th>
+                        <th>Auteur</th>
+                        <th>Nombre de Pages</th>
+                        <th>Édition</th>
+                        <th>Résumé</th>
+                        <th>Couverture</th>
+              
+                        <th></th>
+                        <th></th>
+                    </thead>
+                    <tbody id="books"></tbody>
+                </table>
+        </div>
+    </div>
+    <script src="../asset/js/listBook.js"></script>
+</body>
+</html>

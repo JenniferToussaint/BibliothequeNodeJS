@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livres</title>
+    <link rel="stylesheet" href="../asset/style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand material-symbols-outlined" href="/">auto_stories</a>
+            <a class="navbar-brand" href="listBook.html">Liste des livres</a>
+          </div>
+      </nav>
+
+      <div class="container">
+        <h1 class="text-center">Détails du Livre</h1>
+    
+        <div class="detail">
+
+          <img id="urlImage" src="" alt="Couverture du Livre" class="cover">
+
+          <h3>Titre</h3>
+          <p id="titre" class="lead"></p>
+    
+          <h3>Genre</h3>
+          <p id="genre"></p>
+    
+          <h3>Auteur</h3>
+          <p id="auteur"></p>
+    
+          <h3>Nombre de Pages</h3>
+          <p id="nbPages"></p>
+    
+          <h3>Édition</h3>
+          <p id="edition"></p>
+    
+          <h3>Résumé</h3>
+          <p id="resume"></p>
+        </div>
+      </div>
+      <script src="../asset/js/detailsBook.js"></script>
+</body>
+</html>
+
+<style>
+    body {
+      background-color: #f8f9fa; 
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding-top: 50px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #343a40; 
+      margin-bottom: 20px;
+    }
+
+    .detail {
+      background-color: #ffffff;
+      border-radius: 8px; 
+      padding: 20px; 
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); 
+    }
+
+    .detail h3 {
+      color: #343a40; 
+      margin-bottom: 10px;
+    }
+
+    .detail p {
+      color: #6c757d; 
+      margin-bottom: 20px;
+    }
+
+    .cover {
+      max-width: 200px; 
+      display: block;
+      margin: 0 auto 20px; 
+    }
+  </style>
